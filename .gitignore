@@ -1,1 +1,26 @@
 dj_env/
+
+# Logs
+psys_frontend/logs
+psys_frontend/*.log
+psys_frontend/npm-debug.log*
+psys_frontend/yarn-debug.log*
+psys_frontend/yarn-error.log*
+psys_frontend/pnpm-debug.log*
+psys_frontend/lerna-debug.log*
+
+psys_frontend/node_modules
+psys_frontend/dist
+psys_frontend/dist-ssr
+psys_frontend/*.local
+
+# Editor directories and files
+psys_frontend/.vscode/*
+psys_frontend/!.vscode/extensions.json
+psys_frontend/.idea
+psys_frontend/.DS_Store
+psys_frontend/*.suo
+psys_frontend/*.ntvs*
+psys_frontend/*.njsproj
+psys_frontend/*.sln
+psys_frontend/*.sw?
